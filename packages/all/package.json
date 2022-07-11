@@ -1,14 +1,10 @@
 {
   "name": "@enochzzz/eslint-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
     "lint": "eslint . --config index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/enochzzz/eslint-config.git"
   },
   "keywords": [
     "eslint-config"

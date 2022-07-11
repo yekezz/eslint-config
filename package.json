@@ -1,15 +1,11 @@
 {
   "name": "config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "private": true,
   "scripts": {
     "lint": "eslint .",
     "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/enochzzz/eslint-config.git"
   },
   "keywords": [],
   "author": "enochzzz <enochxxs@gmail.com> (https://github.com/enochzzz)",
