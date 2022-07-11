@@ -1,0 +1,32 @@
+{
+  "name": "@enochzzz/eslint-config-vue",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --config index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enochzzz/eslint-config.git"
+  },
+  "keywords": [
+    "eslint-config"
+  ],
+  "author": "enochzzz <enochxxs@gmail.com> (https://github.com/enochzzz)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/enochzzz/eslint-config/issues"
+  },
+  "homepage": "https://github.com/enochzzz/eslint-config#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@enochzzz/eslint-config-typescript": "workspace:*",
+    "eslint-plugin-vue": "^8.7.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.14.0"
+  }
+}

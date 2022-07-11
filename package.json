@@ -1,0 +1,26 @@
+{
+  "name": "config",
+  "version": "0.0.0",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "lint": "eslint .",
+    "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enochzzz/eslint-config.git"
+  },
+  "keywords": [],
+  "author": "enochzzz <enochxxs@gmail.com> (https://github.com/enochzzz)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/enochzzz/eslint-config/issues"
+  },
+  "homepage": "https://github.com/enochzzz/eslint-config#readme",
+  "devDependencies": {
+    "bumpp": "^7.1.1",
+    "eslint": "^8.14.0",
+    "typescript": "^4.6.4"
+  }
+}

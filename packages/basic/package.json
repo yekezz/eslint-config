@@ -1,0 +1,41 @@
+{
+  "name": "@enochzzz/eslint-config-basic",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [
+    "eslint-config"
+  ],
+  "license": "ISC",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enochzzz/eslint-config.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/enochzzz/eslint-config/issues"
+  },
+  "homepage": "https://github.com/enochzzz/eslint-config#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "eslint": "^8.14.0"
+  },
+  "dependencies": {
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-html": "^6.2.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsonc": "^2.2.1",
+    "eslint-plugin-markdown": "^2.2.1",
+    "eslint-plugin-n": "^15.2.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-unicorn": "^42.0.0",
+    "eslint-plugin-yml": "^0.14.0",
+    "jsonc-eslint-parser": "^2.1.0",
+    "yaml-eslint-parser": "^0.5.0"
+  }
+}
