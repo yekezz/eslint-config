@@ -52,4 +52,4 @@ Create `.vscode/settings.json`
 
 ## reference
 
-- @antfu/eslint-config
+- @antfu/eslint-config (安法师牛皮)
